@@ -17,8 +17,10 @@ function setDetails(imageUrl, titleText) {
     'use strict';
     isClicked = true;
     var detailImage = document.querySelector(DETAIL_IMAGE_SELECTOR);
+    //later will be used for changing thumbnail image
     detailImage.setAttribute('src', imageUrl);
     var detailTitle = document.querySelector(DETAIL_TITLE_SELECTOR);
+    //changing thumbnail text
     detailTitle.textContent = titleText;
   }
   
