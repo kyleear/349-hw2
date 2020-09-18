@@ -85,8 +85,8 @@ function setDetails(imageUrl, titleText) {
     document.body.addEventListener('keyup', function(event) {
       event.preventDefault();
       console.log(event.keyCode);
-      if (event.keyCode === ESC_KEY) { 
-        hideDetails();
+      if (event.keyCode === ESC_KEY) { //seeing if the button we pressed is equal to esc key 27 that we set at the top 27 is the esc code for the esc key
+        hideDetails();//when esc is pressed then hide details
       }
     });
   }
